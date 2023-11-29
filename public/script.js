@@ -9,7 +9,10 @@ document.addEventListener("DOMContentLoaded", function ()
     const dropdown = document.querySelector(".dropdown-menu");
   
     // Add a click event listener to the toggle button
-    toggleBtn.addEventListener("click", () => {
+   toggleBtn.addEventListener("click", () => {
+
+
+console.log("Sclick works!");
       // Toggle the 'top-16' class on the dropdown menu
       dropdown.classList.toggle('top-16');
     });
