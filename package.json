@@ -1,8 +1,8 @@
 {
   "name": "30-day-tailwind",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Designer turned front-end developer playing with tailwindcss for 30 days",
+  "main": "index.html",
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
   },
