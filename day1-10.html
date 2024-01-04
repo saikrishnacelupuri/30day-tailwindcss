@@ -88,12 +88,45 @@
         </div>
     </div>
 
+<!--Toggle Component-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <title>Toggle Example</title>
+</head>
+<body class="bg-gray-200 p-8 flex items-center justify-center h-screen">
 
- <!-- Alert component -->
-<div class="bg-slate-100 flex-col p-8">
-    <h2> Heading </h2>
-    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
-</div>
+  <div class="flex items-center">
+    <label for="toggle" class="mr-2">Toggle:</label>
+    <input type="checkbox" id="toggle" class="form-checkbox h-6 w-6 text-green-500 transition duration-200 ease-in-out transform bg-gray-300 border-2 border-gray-300 rounded-full focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200 focus:ring-opacity-50">
+  </div>
+
+  <script>
+    const toggle = document.getElementById('toggle');
+
+    toggle.addEventListener('change', () => {
+      if (toggle.checked) {
+        // Toggle is checked, perform actions when toggled on
+        console.log('Toggle is ON');
+        // Add your custom logic here
+      } else {
+        // Toggle is unchecked, perform actions when toggled off
+        console.log('Toggle is OFF');
+        // Add your custom logic here
+      }
+    });
+  </script>
+
+</body>
+</html>
+<!--Toggle end-->
+
+
+
+
 
 </body>
 
