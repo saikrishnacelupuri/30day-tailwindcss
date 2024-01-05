@@ -89,6 +89,18 @@ module.exports = {
         tealDarker: "#18c59a",
         tealDarkest: "#05a87f",
         blurple: "#635bff",
+        sage: {
+          50: "#EDF2F1",
+          100: "#D2DBD7",
+          200: "#C8D2CD",
+          300: "#AFBEB6",
+          400: "#91A59B",
+          500: "#769184",
+          600: "#3C6955",
+          700: "#1E4B37",
+          800: "#00230F",
+          900: "#000F00",
+        },
       },
       spacing: {
         columnGap: "24px",
